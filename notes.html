@@ -1,0 +1,257 @@
+<!DOCTYPE html><html><head>
+      <title>notes</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\samru\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.19\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="openmp-short-notes">OpenMP Short Notes </h1>
+<p>Source: <a href="https://youtu.be/dcT7y6kLwMs">Parallel computing in C++: OpenMP | Jonathon Riddell</a></p>
+<h2 id="sections">Sections </h2>
+<ol>
+<li><a href="#compilation-using-gccgpp">Compilaton using <code>gcc</code>/<code>g++</code></a></li>
+<li><a href="#initiating-a-parallel-section-in-a-c-c-program">Initiating a Parallel Section in a C/C++ Program</a></li>
+<li><a href="#dealing-with-race-conditions">Dealing with Race Conditions</a></li>
+<li><a href="#shared-and-thread-private-memory">Shared and Thread-Private Memory</a></li>
+<li><a href="#parallelizing-for-loops">Parallelizing <code>for</code> loops</a></li>
+<li><a href="#extras">Extras</a>
+<ul>
+<li><a href="#openmp-memory-sharing-clauses">OpenMP Memory Sharing Clauses</a></li>
+<li><a href="#openmp-schedule-clause">OpenMP <code>schedule</code> Clause</a></li>
+<li><a href="#openmp-sections-directive">OpenMP <code>sections</code> Directive</a></li>
+<li><a href="#openmp-barrier-construct">OpenMP <code>barrier</code> Construct</a></li>
+<li><a href="#openmp-nowait-construct">OpenMP <code>nowait</code> Construct</a></li>
+<li><a href="#openmp-num_threads-clause">OpenMP <code>num_threads()</code> clause</a></li>
+<li><a href="#openmp-if-clause">OpenMP <code>if</code> Clause</a></li>
+</ul>
+</li>
+<li><a href="#problems">Problems</a></li>
+<li><a href="#things-to-mind">Things to Mind</a></li>
+<li><a href="#references">References</a></li>
+</ol>
+<h2 id="compilation-using-gccg">Compilation using <code>gcc</code>/<code>g++</code> </h2>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token variable">$g</span>++ <span class="token parameter variable">-fopenmp</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span>.cpp <span class="token parameter variable">-o</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> <span class="token comment"># for C++</span>
+<span class="token variable">$gcc</span> <span class="token parameter variable">-fopenmp</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span>.c <span class="token parameter variable">-o</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> <span class="token comment"># for C</span>
+</code></pre><h2 id="initiating-a-parallel-section-in-a-cc-program">Initiating a Parallel Section in a C/C++ Program </h2>
+<ul>
+<li>We'll go with the C++ example; the stuff is pretty much the same in C as well -  include the <code>omp.h</code> library and type the parallel section in a <code>#pragma omp parallel</code> directive.<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;omp.h&gt;</span></span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel<span class="token punctuation">{</span></span></span>
+        <span class="token comment">// parallelizable section here</span>
+        <span class="token comment">// by default, the max number of threads </span>
+        <span class="token comment">// are spawned to run in this scope</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>We can control the number of threads using <code>omp_set_num_threads()</code>:<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;omp.h&gt;</span></span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">omp_set_num_threads</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel<span class="token punctuation">{</span></span></span>
+        <span class="token comment">// parallelizable section here</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li>To print the thread ID/ thread number: use <code>omp_get_thread_num()</code> within the parallel section.</li>
+</ul>
+<h2 id="dealing-with-race-conditions">Dealing with Race Conditions </h2>
+<ul>
+<li><strong>Race condition:</strong> Sometimes, some threads compete for resources (in the perspective of the timestamp at <a href="https://youtu.be/dcT7y6kLwMs?t=279">4:39</a>, to have their share of processing time). To prevent race condition, one can place those lines of code that may cause a race condition within a <code>#pragma omp critical</code> directive.<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;omp.h&gt;</span></span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel<span class="token punctuation">{</span></span></span>
+        <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp critical<span class="token punctuation">{</span></span></span>
+            <span class="token comment">// critical section here</span>
+        <span class="token punctuation">}</span>
+    
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+<li><code>#pragma omp critical</code> allows only one thread to execute within the critical section at a time - whoever comes first executes first within the scope and then quits the scope, followed by the next thred.</li>
+<li>Also: <code>#pragma omp single</code> allows the complete execution of only the first thread to reach the section.</li>
+</ul>
+<h2 id="shared-and-thread-private-memory">Shared and Thread-Private Memory </h2>
+<ul>
+<li>Any variable declared outside the parallelized section is <strong>shared</strong>, i.e., every thread in the parallelied section can see that address and modify it at will</li>
+<li>Any variable declared inside the parallelized section is <strong>private</strong> to that thread alone.</li>
+<li>To explicitly tell OpenMP which of the variables declared outside the <code>parallel</code> directive is shared and which are private, one can use <code>shared(&lt;vars sep by commas&gt;)</code> and <code>private(&lt;vars sep by commas&gt;)</code> respectively.
+<blockquote>
+<p>NB: <code>private</code> assigns a local copy of the passed variable to each thread.</p>
+</blockquote>
+</li>
+<li>Eg.:<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;omp.h&gt;</span></span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token punctuation">.</span>
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> x<span class="token punctuation">,</span> y<span class="token punctuation">,</span> z<span class="token punctuation">;</span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel <span class="token function">shared</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span> <span class="token keyword keyword-private">private</span><span class="token punctuation">(</span>z<span class="token punctuation">)</span><span class="token punctuation">{</span></span></span>
+        <span class="token comment">// code</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+</ul>
+<h2 id="parallelizing-for-loops">Parallelizing <code>for</code> loops </h2>
+<ul>
+<li>One can use the <code>#pragma omp for</code> directive within <code>#pragma omp parallel</code> directive or directly use <code>#pragma omp parallel for</code>.
+<blockquote>
+<p><strong>NB:</strong> <em>Do not add</em> <code>#pragam omp critical</code> <em>anywhere inside the loop body; you're gonna make each thread wait and that will again consume some time, making the whole program essentially slow and not fulfil the purpose intended by parallelizing.</em></p>
+</blockquote>
+</li>
+<li>As an alternative to the point in the nota bene above, you can use a <code>reduction</code> clause alongside the <code># pragma omp for</code>/<code>#pragma omp parallel for</code> directive.</li>
+<li>Basically, what the <strong>reduction technique</strong> does is that it creates thread-local copies of the memory to be shared within the parallelized <code>for</code> loop, lets operations be done on each of it and then in the end operate on the local copies and store the result into the main shared variable.</li>
+<li>Eg.: A random summation<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;omp.h&gt;</span></span>
+
+<span class="token keyword keyword-using">using</span> <span class="token keyword keyword-namespace">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword keyword-int">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword keyword-int">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> <span class="token comment">// global, shared variable to the threads</span>
+    <span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">pragma</span> <span class="token expression">omp parallel <span class="token keyword keyword-for">for</span> <span class="token function">reduction</span><span class="token punctuation">(</span><span class="token operator">+</span><span class="token operator">:</span>sum<span class="token punctuation">)</span><span class="token punctuation">{</span></span></span>
+        <span class="token keyword keyword-for">for</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> <span class="token number">100</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            sum <span class="token operator">+=</span> i<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    cout <span class="token operator">&lt;&lt;</span> i <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token keyword keyword-return">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></li>
+</ul>
+<h2 id="extras">Extras: </h2>
+<ul>
+<li>Run only for the master thread (thread 0): <code># pragma omp master</code></li>
+<li>Get CPU wall time: <code>omp_get_wtime</code></li>
+</ul>
+<h3 id="openmp-memory-sharing-clauses">OpenMP Memory Sharing Clauses: </h3>
+<p>Clause syntax: <code>clause_name(args)</code></p>
+<ul>
+<li><code>default</code> : specifies default values for code elements when no explicit values are provided. Possible arguments: <code>shared</code>, <code>private</code> (Fortran also has an option <code>none</code>).</li>
+<li><code>shared</code> : allows attribs to be shared among multiple threads thus reducing redundancy and increasing code reusability.</li>
+<li><code>private</code> : makes variables private to each thread</li>
+<li><code>threadprivate</code> : somewhat similar to <code>private</code> ig; check: <a href="https://www.openmp.org/spec-html/5.0/openmpsu104.html">OpenMP documentation</a></li>
+</ul>
+<p>The below account for the fork-join model in the memory perspective.</p>
+<ul>
+<li><code>firstprivate</code> : private copies of that variable for each thread are initialised with the value before the loop iteration; global copy unaffected by change in private copy.</li>
+<li><code>lastprivate</code> : special case of private; creates private copies of listed variables but final value is given by the thread that executes last.</li>
+</ul>
+<h3 id="openmp-schedule-clause">OpenMP <code>schedule</code> Clause </h3>
+<ul>
+<li>Follows the <code>parallel for</code> directive (mostly, can be used otherwise as well I guess, but depends on the task)</li>
+<li>Helps in allocating threads to CPU cores
+<ul>
+<li><code>schedule(static, chunk_size)</code> : every <code>chunk_size</code> threads are assigned to each CPU core.</li>
+<li><code>schedule(dynamic, chunk_size)</code> : every <code>chunk_size</code> iterations of the loop are assigned to each <em>free</em> CPU core.</li>
+<li><code>schedule(guided, chunk_size)</code> : at max <code>chunk_size</code> iterations are given to each free CPU core, but the number of iterations in each chunk may eventually reduce, till the last chunk.</li>
+<li><code>schedule(auto)</code> : the system scheduler deals with the thread scheduling.</li>
+</ul>
+</li>
+</ul>
+<h3 id="openmp-sections-directive">OpenMP <code>sections</code> Directive </h3>
+<ul>
+<li>A non-iterative work-sharing construct</li>
+<li>Each section within this directive is assigned to a different thread</li>
+<li>Syntax (C/C++):</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp sections <span class="token punctuation">[</span>clauses<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span></span></span>
+<span class="token punctuation">{</span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp section</span></span>
+    <span class="token comment">// part of the code to be parallelized - 1</span>
+
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp section</span></span>
+    <span class="token comment">// part of the code to be parallelized - 2</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="openmp-barrier-construct">OpenMP <code>barrier</code> Construct </h3>
+<ul>
+<li>Puts an explicit barrier towards the end of the parallelilzed section</li>
+<li>Helps in synchronizing threads</li>
+<li>Syntax (C/C++):</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel<span class="token punctuation">{</span></span></span>
+    <span class="token comment">// some parallelized code</span>
+<span class="token punctuation">}</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp barrier</span></span>
+</code></pre><h3 id="openmp-nowait-construct">OpenMP <code>nowait</code> Construct </h3>
+<ul>
+<li>Helps in bypassing implicit barriers within the code</li>
+<li>Syntax (C/C++) (here, we'll deal with a parallelized <code>for</code> loop):</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token keyword keyword-int">int</span> n <span class="token operator">=</span> <span class="token operator">&lt;</span>some number<span class="token operator">&gt;</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel<span class="token punctuation">{</span></span></span>
+    <span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp <span class="token keyword keyword-for">for</span> nowait</span></span>
+    <span class="token keyword keyword-for">for</span><span class="token punctuation">(</span><span class="token keyword keyword-int">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// parallelized code</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="openmp-num_threads-clause">OpenMP <code>num_threads()</code> clause </h3>
+<ul>
+<li>Specifies the number of threads to spawn</li>
+<li>Usage:</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel <span class="token function">num_threads</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>number<span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token punctuation">{</span></span></span>
+<span class="token comment">// parallel section</span>
+<span class="token punctuation">}</span>
+</code></pre><h3 id="openmp-if-clause">OpenMP <code>if</code> Clause </h3>
+<ul>
+<li>Conditional execution of parallel section</li>
+<li>Basic syntax:</li>
+</ul>
+<pre data-role="codeBlock" data-info="cpp" class="language-cpp cpp"><code><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">pragma</span> <span class="token expression">omp parallel <span class="token keyword keyword-if">if</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>condition<span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token punctuation">{</span></span></span>
+    <span class="token comment">// parallel section</span>
+<span class="token punctuation">}</span>
+</code></pre><h2 id="problems">Problems </h2>
+<ol>
+<li>Solve the integral <span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mi>π</mi><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mi>sin</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>π</mi><mi>x</mi><mo stretchy="false">)</mo><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\pi\int_0^1\sin(\pi x)dx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.476em;vertical-align:-0.9119em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.564em;"><span style="top:-1.7881em;margin-left:-0.4445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span style="top:-3.8129em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9119em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">sin</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord mathnormal">x</span><span class="mclose">)</span><span class="mord mathnormal">d</span><span class="mord mathnormal">x</span></span></span></span></span> using a parallelized Reimann sum. The expected answer is <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span>. Plot the error between the original and the intended values with respect to the number of threads spawned to calculate the Reimann sum.</li>
+<li>Do the estimation of <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi></mrow><annotation encoding="application/x-tex">\pi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span></span></span></span> using the integral <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mfrac><mn>4</mn><mrow><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mi>d</mi><mi>x</mi></mrow><annotation encoding="application/x-tex">\int_0^1 \frac{4}{1 + x^2}dx</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.4123em;vertical-align:-0.4033em;"></span><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0006em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.009em;"><span style="top:-2.3442em;margin-left:-0.1945em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span><span style="top:-3.2579em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3558em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathnormal mtight">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463em;"><span style="top:-2.786em;margin-right:0.0714em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4033em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathnormal">d</span><span class="mord mathnormal">x</span></span></span></span> using a parallelized Reimann sum.</li>
+</ol>
+<h2 id="things-to-mind">Things to Mind </h2>
+<ul>
+<li>Spawning too many threads needn't help all the time. Spawning of threads itself has a bit of overhead involved, plus <a href="https://en.wikipedia.org/wiki/Amdahl%27s_law">Amdahl's law</a> limits the speedup achievable even if you try to parallelize your program massively.</li>
+<li>For better performance, reduce the number of shared variables.</li>
+</ul>
+<h2 id="references">References </h2>
+<ol>
+<li><a href="https://cse.iitm.ac.in/~rupesh/teaching/hpc/jun16/?mode=Lectures">IIT-M CS6596 High Performance Computing Course Materials</a></li>
+</ol>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
